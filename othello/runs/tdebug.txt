@@ -1,0 +1,1323 @@
+[debug] logging to: /Volumes/ORICO/School/CSC/475/Projects/A3 - Othelo/othello/debugs/tdebug.txt
+Welcome to Othello!
+Select Mode:
+1. Human vs Human
+2. Human vs AI
+3. AI vs AI
+> AI vs AI mode  currently broken, defaulting to Human vs AI.
+mode from loop: 3
+  a b c d e f g h
+1 . . . . . . . .
+2 . . . . . . . .
+3 . . . . . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 2   ○ (black): 2
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d3,c4,f5,e6
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['d3: +6000', 'c4: +6000', 'f5: +6000', 'e6: +6000']
+[debug] chosen: d3 (eval +6000)
+AI chooses move: d3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 . . . . . . . .
+2 . . . . . . . .
+3 . . . ○ . . . .
+4 . . . ○ ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 1   ○ (black): 4
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c3,e3,c5
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c3: +9000', 'e3: +9000', 'c5: +9000']
+[debug] chosen: c3 (eval +9000)
+AI chooses move: c3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 . . . . . . . .
+2 . . . . . . . .
+3 . . ● ○ . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 3   ○ (black): 3
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: b3,c4,f5,e6
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['b3: +9000', 'c4: +9000', 'f5: +9000', 'e6: +9000']
+[debug] chosen: b3 (eval +9000)
+AI chooses move: b3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 . . . . . . . .
+2 . . . . . . . .
+3 . ○ ○ ○ . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 2   ○ (black): 5
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: b2,d2,e3,f4,c5,d6
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['b2: +11000', 'd2: +11000', 'e3: +10000', 'f4: +1', 'c5: +1', 'd6: +1']
+[debug] chosen: b2 (eval +11000)
+AI chooses move: b2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 . . . . . . . .
+2 . ● . . . . . .
+3 . ○ ● ○ . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 4   ○ (black): 4
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: b1,c4,f5,e6
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['b1: +12000', 'c4: +12000', 'f5: +12000', 'e6: +12000']
+[debug] chosen: b1 (eval +12000)
+AI chooses move: b1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 . ○ . . . . . .
+2 . ○ . . . . . .
+3 . ○ ● ○ . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 3   ○ (black): 6
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: a1,d2,a3,e3,f4,c5,d6
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['a1: +21', 'd2: +19', 'a3: +21', 'e3: +21', 'f4: +19', 'c5: +21', 'd6: +21']
+[debug] chosen: a1 (eval +21)
+AI chooses move: a1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . . . . . .
+3 . ○ ● ○ . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 5   ○ (black): 5
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c4,f5,e6
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c4: -21', 'f5: -21', 'e6: -21']
+[debug] chosen: c4 (eval -21)
+AI chooses move: c4. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . . . . . .
+3 . ○ ● ○ . . . .
+4 . . ○ ○ ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 4   ○ (black): 7
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c1,a3,e3,b4,c5
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c1: +1', 'a3: +1', 'e3: +15000', 'b4: +23', 'c5: +15000']
+[debug] chosen: e3 (eval +15000)
+AI chooses move: e3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . . . . . .
+3 . ○ ● ● ● . . .
+4 . . ○ ○ ● . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 7   ○ (black): 5
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c2,d2,e2,f2,f3,f4,f5,f6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c2: -18', 'd2: -13', 'e2: -13', 'f2: -13', 'f3: +inf']
+[debug] chosen: f3 (eval +inf)
+AI chooses move: f3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . . . . . .
+3 . ○ ○ ○ ○ ○ . .
+4 . . ○ ○ ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 3   ○ (black): 10
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c1,e2,b4,c5
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c1: -11', 'e2: -11', 'b4: -16', 'c5: -7']
+[debug] chosen: c5 (eval -7)
+AI chooses move: c5. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . . . . . .
+3 . ○ ○ ○ ○ ○ . .
+4 . . ○ ○ ○ . . .
+5 . . ● ● ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 5   ○ (black): 9
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: b6,c6,d6,e6,f6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['b6: +inf']
+[debug] chosen: b6 (eval +inf)
+AI chooses move: b6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . . . . . .
+3 . ○ ○ ○ ○ ○ . .
+4 . . ○ ○ ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 4   ○ (black): 11
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c1,a2,d2,e2,g2,b4,b5
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c1: -4', 'a2: -4', 'd2: +3', 'e2: +3', 'g2: -2', 'b4: +1', 'b5: +1']
+[debug] chosen: d2 (eval +3)
+AI chooses move: d2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . . . . .
+2 . ● . ● . . . .
+3 . ○ ○ ● ○ ○ . .
+4 . . ○ ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 7   ○ (black): 9
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c1,e1,c2,e2,f5,c6,e6,f6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c1: -10', 'e1: +inf']
+[debug] chosen: e1 (eval +inf)
+AI chooses move: e1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . . ○ . . .
+2 . ● . ○ . . . .
+3 . ○ ○ ● ○ ○ . .
+4 . . ○ ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 6   ○ (black): 11
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c1,d1,a2,e2,f2,g2,a3,g3,b4,f4,b5,f5,a7
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c1: +18', 'd1: +22', 'a2: +22', 'e2: +22', 'f2: +22', 'g2: +20', 'a3: +22', 'g3: +22', 'b4: +22', 'f4: +22', 'b5: +22', 'f5: +22', 'a7: +22']
+[debug] chosen: d1 (eval +22)
+AI chooses move: d1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ . ● ○ . . .
+2 . ● . ● . . . .
+3 . ○ ○ ● ○ ○ . .
+4 . . ○ ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 8   ○ (black): 10
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c1,c2,e2,f5,c6,e6,f6
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c1: +14', 'c2: +14', 'e2: +6', 'f5: -10', 'c6: +2', 'e6: -10', 'f6: +6']
+[debug] chosen: c1 (eval +14)
+AI chooses move: c1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ○ ○ ○ ○ . . .
+2 . ● . ○ . . . .
+3 . ○ ○ ● ○ ○ . .
+4 . . ○ ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 6   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: f1,a2,e2,f2,g2,a3,g3,b4,f4,b5,f5,a7
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['f1: +34', 'a2: +34', 'e2: +34', 'f2: +34', 'g2: +28', 'a3: +34', 'g3: +34', 'b4: +34', 'f4: +34', 'b5: +34', 'f5: +34', 'a7: +34']
+[debug] chosen: f1 (eval +34)
+AI chooses move: f1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 . ● . ○ . . . .
+3 . ○ ○ ● ○ ○ . .
+4 . . ○ ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 11   ○ (black): 9
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c2,e2,f5,c6,d6,e6,f6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c2: +inf']
+[debug] chosen: c2 (eval +inf)
+AI chooses move: c2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 . ● ○ ○ . . . .
+3 . ○ ○ ○ ○ ○ . .
+4 . . ○ ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 10   ○ (black): 11
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: a2,e2,f2,g2,a4,b4,f4,b5,f5,c6,a7
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['a2: +36', 'e2: +44', 'f2: +40', 'g2: +44', 'a4: +42', 'b4: +52', 'f4: +46', 'b5: +52', 'f5: +52', 'c6: +52', 'a7: +50']
+[debug] chosen: b4 (eval +52)
+AI chooses move: b4. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 . ● ○ ● . . . .
+3 . ● ● ○ ○ ○ . .
+4 . ● ● ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 15   ○ (black): 7
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: a2,e2,a3,a4,b5,f5,c6,d6,e6
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['a2: -30', 'e2: -30', 'a3: -30', 'a4: -30', 'b5: -34', 'f5: -38', 'c6: -30', 'd6: -30', 'e6: -30']
+[debug] chosen: a2 (eval -30)
+AI chooses move: a2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ○ ○ ○ ● . . . .
+3 . ● ● ○ ○ ○ . .
+4 . ● ● ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 14   ○ (black): 9
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,f2,g2,a3,g3,f4,b5,f5,c6,d6,a7
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: +40', 'f2: +42', 'g2: +40', 'a3: +60', 'g3: +46', 'f4: +58', 'b5: +54', 'f5: +60', 'c6: +46', 'd6: +46', 'a7: +46']
+[debug] chosen: a3 (eval +60)
+AI chooses move: a3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ○ ● . . . .
+3 ● ● ● ○ ○ ○ . .
+4 . ● ● ● ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 17   ○ (black): 7
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,a4,b5,f5,c6,d6,e6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: -44', 'a4: +inf']
+[debug] chosen: a4 (eval +inf)
+AI chooses move: a4. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ○ ● . . . .
+3 ● ○ ● ○ ○ ○ . .
+4 ○ ○ ○ ○ ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 13   ○ (black): 12
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,g2,g3,f4,a5,b5,f5,c6,d6
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: +22', 'g2: +22', 'g3: +34', 'f4: +34', 'a5: +34', 'b5: +32', 'f5: +34', 'c6: +34', 'd6: +34']
+[debug] chosen: g3 (eval +34)
+AI chooses move: g3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ○ ● . . . .
+3 ● ○ ● ● ● ● ● .
+4 ○ ○ ○ ○ ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 17   ○ (black): 9
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,f2,g2,h3,f5,c6,d6,e6,f6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: -36', 'f2: -34', 'g2: -34', 'h3: +inf']
+[debug] chosen: h3 (eval +inf)
+AI chooses move: h3. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ○ ● . . . .
+3 ● ○ ○ ○ ○ ○ ○ ○
+4 ○ ○ ○ ○ ○ . . .
+5 . . ○ ● ● . . .
+6 . ○ . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 12   ○ (black): 15
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,g2,f4,a5,b5,f5,c6,d6
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: +16', 'g2: +22', 'f4: +22', 'a5: +30', 'b5: +30', 'f5: +34', 'c6: +40', 'd6: +22']
+[debug] chosen: c6 (eval +40)
+AI chooses move: c6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● . . . .
+3 ● ○ ● ○ ○ ○ ○ ○
+4 ○ ○ ● ○ ○ . . .
+5 . . ● ● ● . . .
+6 . ○ ● . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 17   ○ (black): 11
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: b5,d6,e6,f6,b7
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['b5: +inf']
+[debug] chosen: b5 (eval +inf)
+AI chooses move: b5. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● . . . .
+3 ● ○ ● ○ ○ ○ ○ ○
+4 ○ ○ ○ ○ ○ . . .
+5 . ○ ● ● ● . . .
+6 . ○ ● . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 16   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,f2,g2,f4,a5,f5,a6,a7,b7
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: +20', 'f2: +30', 'g2: +30', 'f4: +30', 'a5: +38', 'f5: +36', 'a6: +30', 'a7: +32', 'b7: +42']
+[debug] chosen: b7 (eval +42)
+AI chooses move: b7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● . . . .
+3 ● ● ● ○ ○ ○ ○ ○
+4 ○ ● ○ ○ ○ . . .
+5 . ● ● ● ● . . .
+6 . ● ● . . . . .
+7 . ● . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 21   ○ (black): 9
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: a6,d6,e6,f6,a7,c7,d7,a8
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['a8: +inf']
+[debug] chosen: a8 (eval +inf)
+AI chooses move: a8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● . . . .
+3 ● ● ● ○ ○ ○ ○ ○
+4 ○ ● ○ ○ ○ . . .
+5 . ● ● ○ ● . . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 18   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,f2,f4,a5,f5,d6,e6,c7,d7,b8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: +30', 'f2: +34', 'f4: +38', 'a5: +36', 'f5: +32', 'd6: +30', 'e6: +36', 'c7: +36', 'd7: +36', 'b8: +34']
+[debug] chosen: f4 (eval +38)
+AI chooses move: f4. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● . . . .
+3 ● ● ● ○ ● ○ ○ ○
+4 ○ ● ● ● ● ● . .
+5 . ● ● ○ ● . . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 23   ○ (black): 9
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g4,a5,f5,a6,d6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g4: -16', 'a5: -16', 'f5: +inf']
+[debug] chosen: f5 (eval +inf)
+AI chooses move: f5. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● . . . .
+3 ● ● ● ○ ● ○ ○ ○
+4 ○ ● ● ● ○ ○ . .
+5 . ● ● ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 20   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e2,g4,a5,g5,d6,e6,f6,g6,c7,d7,b8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e2: +42', 'g4: +42', 'a5: +42', 'g5: +42', 'd6: +42', 'e6: +42', 'f6: +42', 'g6: +42', 'c7: +42', 'd7: +42', 'b8: +42']
+[debug] chosen: e2 (eval +42)
+AI chooses move: e2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● ● . . .
+3 ● ● ● ● ● ○ ○ ○
+4 ○ ● ● ● ○ ○ . .
+5 . ● ● ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 22   ○ (black): 12
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: a5,a6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['a5: +inf']
+[debug] chosen: a5 (eval +inf)
+AI chooses move: a5. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● ● . . .
+3 ● ● ● ● ● ○ ○ ○
+4 ○ ● ● ● ○ ○ . .
+5 ○ ○ ○ ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 20   ○ (black): 15
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g4,g5,a6,d6,e6,f6,g6,c7,b8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g4: +44', 'g5: +44', 'a6: +44', 'd6: +44', 'e6: +42', 'f6: +38', 'g6: +42', 'c7: +44', 'b8: +42']
+[debug] chosen: g4 (eval +44)
+AI chooses move: g4. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● ● . . .
+3 ● ● ● ● ● ● ○ ○
+4 ○ ● ● ● ● ● ● .
+5 ○ ○ ○ ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 24   ○ (black): 12
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: f2,g2,h4,g5,a6,a7,c7
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['f2: +inf']
+[debug] chosen: f2 (eval +inf)
+AI chooses move: f2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● . .
+2 ● ● ● ● ● ○ . .
+3 ● ● ● ● ○ ○ ○ ○
+4 ○ ● ● ○ ● ○ ● .
+5 ○ ○ ○ ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 20   ○ (black): 17
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g1,g2,h4,g5,a6,d6,e6,f6,g6,c7,b8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g1: +52', 'g2: +48', 'h4: +52', 'g5: +52', 'a6: +52', 'd6: +48', 'e6: +52', 'f6: +52', 'g6: +52', 'c7: +52', 'b8: +52']
+[debug] chosen: g1 (eval +52)
+AI chooses move: g1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● . .
+3 ● ● ● ● ● ○ ○ ○
+4 ○ ● ● ● ● ○ ● .
+5 ○ ○ ● ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 25   ○ (black): 13
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h4,g5,h5,a6,c7
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h4: +inf']
+[debug] chosen: h4 (eval +inf)
+AI chooses move: h4. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● . .
+3 ● ● ● ● ● ○ ○ ○
+4 ○ ● ● ● ● ○ ○ ○
+5 ○ ○ ● ○ ○ ○ . .
+6 . ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 24   ○ (black): 15
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g2,g5,h5,a6,d6,e6,f6,g6,c7,b8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g2: +46', 'g5: +48', 'h5: +52', 'a6: +56', 'd6: +56', 'e6: +56', 'f6: +56', 'g6: +56', 'c7: +56', 'b8: +54']
+[debug] chosen: a6 (eval +56)
+AI chooses move: a6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● . .
+3 ● ● ● ● ● ○ ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ○ ○ ○ . .
+6 ● ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 28   ○ (black): 12
+
+Black (○) has no legal moves and must pass. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● . .
+3 ● ● ● ● ● ○ ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ○ ○ ○ . .
+6 ● ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 28   ○ (black): 12
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g2,g5,h5,d6,e6,f6,g6,c7,d7,b8,c8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g2: +52', 'g5: +52', 'h5: +66', 'd6: +66', 'e6: +66', 'f6: +66', 'g6: +66', 'c7: +66', 'd7: +62', 'b8: +64', 'c8: +62']
+[debug] chosen: h5 (eval +66)
+AI chooses move: h5. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● . .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ○ ○ ○ . ●
+6 ● ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 31   ○ (black): 10
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g2,g5,h6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g2: +inf']
+[debug] chosen: g2 (eval +inf)
+AI chooses move: g2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● ○ .
+3 ● ● ● ● ● ○ ○ ○
+4 ● ● ● ● ○ ○ ● ○
+5 ● ● ● ○ ○ ○ . ●
+6 ● ● ○ . . . . .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 29   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h2,g5,d6,e6,f6,g6,c7,d7,b8,c8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h2: +56', 'g5: +62', 'd6: +62', 'e6: +62', 'f6: +62', 'g6: +66', 'c7: +66', 'd7: +66', 'b8: +66', 'c8: +66']
+[debug] chosen: g6 (eval +66)
+AI chooses move: g6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● ○ .
+3 ● ● ● ● ● ○ ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ○ ○ ● . ●
+6 ● ● ○ . . . ● .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 32   ○ (black): 11
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g5,e6,f6,h6
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g5: +inf']
+[debug] chosen: g5 (eval +inf)
+AI chooses move: g5. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● .
+2 ● ● ● ● ● ● ○ .
+3 ● ● ● ● ● ○ ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ○ ○ ○ ○ ●
+6 ● ● ○ . . . ● .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 30   ○ (black): 14
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h1,h2,d6,e6,f6,h6,c7,d7,b8,c8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h1: +74', 'h2: +68', 'd6: +66', 'e6: +70', 'f6: +74', 'h6: +74', 'c7: +74', 'd7: +74', 'b8: +74', 'c8: +70']
+[debug] chosen: h1 (eval +74)
+AI chooses move: h1. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ○ ○ ○ ○ ●
+6 ● ● ○ . . . ● .
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 33   ○ (black): 12
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h6,g7,h7
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h6: +inf']
+[debug] chosen: h6 (eval +inf)
+AI chooses move: h6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ○ ○ ○ ○ ○
+6 ● ● ○ . . . ● ○
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 32   ○ (black): 14
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d6,e6,f6,c7,d7,b8,c8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['d6: +62', 'e6: +62', 'f6: +62', 'c7: +62', 'd7: +62', 'b8: +62', 'c8: +62']
+[debug] chosen: d6 (eval +62)
+AI chooses move: d6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ● ○ ○ ○ ○
+6 ● ● ● ● . . ● ○
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 35   ○ (black): 12
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: f6,c7,f7,g7,h7
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['f6: +inf']
+[debug] chosen: f6 (eval +inf)
+AI chooses move: f6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ● ○ ○ ○ ○
+6 ● ● ● ● . ○ ○ ○
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 34   ○ (black): 14
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h2,e6,f7,g7,h7,b8,c8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h2: +76', 'e6: +inf']
+[debug] chosen: e6 (eval +inf)
+AI chooses move: e6. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ● ● ○ ○ ○
+6 ● ● ● ● ● ○ ○ ○
+7 . ○ . . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 36   ○ (black): 13
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c7,d7
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c7: +inf']
+[debug] chosen: c7 (eval +inf)
+AI chooses move: c7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ○ ○
+5 ● ● ● ● ○ ○ ○ ○
+6 ● ● ● ○ ● ○ ○ ○
+7 . ○ ○ . . . . .
+8 ○ . . . . . . .
+
+Score  ● (white): 34   ○ (black): 16
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d7,e7,f7,g7,h7,b8,c8,d8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['d7: +68', 'e7: +68', 'f7: +72', 'g7: +inf']
+[debug] chosen: g7 (eval +inf)
+AI chooses move: g7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ● ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ● ○ ● ○
+6 ● ● ● ○ ● ● ● ○
+7 . ○ ○ . . . ● .
+8 ○ . . . . . . .
+
+Score  ● (white): 41   ○ (black): 10
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h2,d7,e7,f7,h7,f8
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h2: -76', 'd7: -76', 'e7: -62', 'f7: -66', 'h7: -76', 'f8: -76']
+[debug] chosen: e7 (eval -62)
+AI chooses move: e7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ● ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ● ○ ○ ○
+6 ● ● ● ○ ● ○ ● ○
+7 . ○ ○ . ○ . ● .
+8 ○ . . . . . . .
+
+Score  ● (white): 39   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d7,f7,b8,c8,d8,e8,f8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['d7: +76', 'f7: +inf']
+[debug] chosen: f7 (eval +inf)
+AI chooses move: f7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● .
+3 ● ● ● ● ● ● ● ○
+4 ● ● ● ● ● ● ● ○
+5 ● ● ● ● ● ● ○ ○
+6 ● ● ● ○ ● ● ● ○
+7 . ○ ○ . ○ ● ● .
+8 ○ . . . . . . .
+
+Score  ● (white): 43   ○ (black): 10
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h2,d7,h7,e8,f8,g8
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h2: +inf']
+[debug] chosen: h2 (eval +inf)
+AI chooses move: h2. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ○
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ○ ● ○ ○
+6 ● ● ● ○ ● ● ● ○
+7 . ○ ○ . ○ ● ● .
+8 ○ . . . . . . .
+
+Score  ● (white): 40   ○ (black): 14
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d7,h7,b8,c8,d8,e8,f8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['d7: +inf']
+[debug] chosen: d7 (eval +inf)
+AI chooses move: d7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ○
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ○ ● ○ ○
+6 ● ● ● ● ● ● ● ○
+7 . ○ ○ ● ● ● ● .
+8 ○ . . . . . . .
+
+Score  ● (white): 43   ○ (black): 12
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h7,c8,d8,e8,f8,g8,h8
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h8: +inf']
+[debug] chosen: h8 (eval +inf)
+AI chooses move: h8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ○
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ○ ● ○ ○
+6 ● ● ● ● ● ○ ● ○
+7 . ○ ○ ● ● ● ○ .
+8 ○ . . . . . . ○
+
+Score  ● (white): 41   ○ (black): 15
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: a7,h7,b8,c8,d8,g8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['a7: +inf']
+[debug] chosen: a7 (eval +inf)
+AI chooses move: a7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ○
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ○ ● ○ ○
+6 ● ● ● ● ● ○ ● ○
+7 ● ● ● ● ● ● ○ .
+8 ○ . . . . . . ○
+
+Score  ● (white): 44   ○ (black): 13
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: b8,c8,d8,e8,f8
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['b8: +inf']
+[debug] chosen: b8 (eval +inf)
+AI chooses move: b8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ○
+3 ● ● ● ● ● ● ○ ○
+4 ● ● ● ● ● ○ ● ○
+5 ● ● ● ● ○ ● ○ ○
+6 ● ● ● ○ ● ○ ● ○
+7 ● ● ○ ● ● ● ○ .
+8 ○ ○ . . . . . ○
+
+Score  ● (white): 42   ○ (black): 16
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: h7,c8,d8,g8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['h7: +inf']
+[debug] chosen: h7 (eval +inf)
+AI chooses move: h7. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ●
+3 ● ● ● ● ● ● ○ ●
+4 ● ● ● ● ● ○ ● ●
+5 ● ● ● ● ○ ● ○ ●
+6 ● ● ● ○ ● ○ ● ●
+7 ● ● ○ ● ● ● ● ●
+8 ○ ○ . . . . . ○
+
+Score  ● (white): 49   ○ (black): 10
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d8,e8,f8,g8
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['d8: +inf']
+[debug] chosen: d8 (eval +inf)
+AI chooses move: d8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ●
+3 ● ● ● ● ● ● ○ ●
+4 ● ● ● ● ● ○ ● ●
+5 ● ● ● ● ○ ● ○ ●
+6 ● ● ● ○ ● ○ ● ●
+7 ● ● ○ ○ ○ ● ● ●
+8 ○ ○ . ○ . . . ○
+
+Score  ● (white): 47   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: c8,e8,f8
+AI (White) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['c8: +inf']
+[debug] chosen: c8 (eval +inf)
+AI chooses move: c8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ●
+3 ● ● ● ● ● ● ○ ●
+4 ● ● ● ● ● ○ ● ●
+5 ● ● ● ● ○ ● ○ ●
+6 ● ● ● ○ ● ○ ● ●
+7 ● ● ● ● ○ ● ● ●
+8 ○ ○ ● ○ . . . ○
+
+Score  ● (white): 50   ○ (black): 11
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: f8,g8
+AI (Black) is thinking...
+AI is thinking...
+[debug] root alpha-beta cutoff
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['f8: +inf']
+[debug] chosen: f8 (eval +inf)
+AI chooses move: f8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ●
+3 ● ● ● ● ● ● ○ ●
+4 ● ● ● ● ● ○ ● ●
+5 ● ● ● ● ○ ● ○ ●
+6 ● ● ● ○ ● ○ ● ●
+7 ● ● ● ● ○ ○ ● ●
+8 ○ ○ ● ○ . ○ . ○
+
+Score  ● (white): 49   ○ (black): 13
+
+White (●) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: e8,g8
+AI (White) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['e8: +46000', 'g8: +46000']
+[debug] chosen: e8 (eval +46000)
+AI chooses move: e8. Press Enter to continue.
+mode from loop: 3
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ●
+3 ● ● ● ● ● ● ○ ●
+4 ● ● ● ● ● ○ ● ●
+5 ● ● ● ● ○ ● ○ ●
+6 ● ● ● ○ ● ○ ● ●
+7 ● ● ● ● ● ● ● ●
+8 ○ ○ ● ● ● ○ . ○
+
+Score  ● (white): 53   ○ (black): 10
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: g8
+AI (Black) is thinking...
+AI is thinking...
+[debug] nodes=0 depth=4 alpha-beta=ON
+[debug] root move scores: ['g8: -38000']
+[debug] chosen: g8 (eval -38000)
+AI chooses move: g8. Press Enter to continue.
+  a b c d e f g h
+1 ● ● ● ● ● ● ● ●
+2 ● ● ● ● ● ● ● ●
+3 ● ● ● ● ● ● ○ ●
+4 ● ● ● ● ● ○ ● ●
+5 ● ● ● ● ○ ● ○ ●
+6 ● ● ● ○ ● ○ ○ ●
+7 ● ● ● ● ● ● ○ ●
+8 ○ ○ ● ● ● ○ ○ ○
+
+Score  ● (white): 51   ○ (black): 13
+
+Game over. White (●) wins!

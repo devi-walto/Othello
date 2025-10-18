@@ -1,0 +1,23 @@
+[debug] logging to: /Volumes/ORICO/School/CSC/475/Projects/A3 - Othelo/othello/debugs/debug.txt
+Welcome to Othello!
+Select Mode:
+1. Human vs Human
+2. Human vs AI
+3. AI vs AI
+> Human vs Human mode selected.
+mode from loop: 1
+  a b c d e f g h
+1 . . . . . . . .
+2 . . . . . . . .
+3 . . . . . . . .
+4 . . . ● ○ . . .
+5 . . . ○ ● . . .
+6 . . . . . . . .
+7 . . . . . . . .
+8 . . . . . . . .
+
+Score  ● (white): 2   ○ (black): 2
+
+Black (○) to move. Enter (e.g., d3) or type 'ai'. Type 'q' to quit:
+Legal moves: d3,c4,f5,e6
+Illegal move for current player. Press Enter.

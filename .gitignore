@@ -1,0 +1,29 @@
+# GPT Generated .gitignore
+
+# ---- macOS junk ----
+.DS_Store
+._*
+
+# ---- Python virtual environments ----
+.venv/
+venv/
+
+# ---- Python bytecode / cache ----
+__pycache__/
+*.py[cod]
+
+# ---- Test / coverage artifacts ----
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ---- Logs / temp files ----
+*.log
+*.tmp
+
+# ---- Editor / IDE settings (optional but recommended) ----
+.vscode/
+.idea/
+
+# ---- Class-specific or local-only files (optional) ----
+instructions.zip
