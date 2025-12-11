@@ -1,0 +1,21 @@
+name: Othello AI with Automated Testing Suite
+repo: devi-walto/Othello
+
+area: Testing & Automation
+
+stack:
+  - Python
+  - Pytest
+  - Coverage
+  - QA Tools
+
+summary: >
+  Full test architecture (unit + integration), coverage reports and modular design.
+  Demonstrates AI principles using minimax and Alpha Beta Pruning
+
+focus_tags:
+  - pytest
+  - coverage
+  - unit-tests
+  - integration-tests
+  - qa
