@@ -1,4 +1,5 @@
 *** AI/ GPT Summarized Summary of my Raw Developer Notes ***
+
 ⸻
 
 🕹️ Othello AI (Minimax with Heuristics)
@@ -13,7 +14,7 @@ A fully playable Othello/Reversi game built in Python, featuring:
 
 ⸻
 
-🚀 How to Run (RUN FROM TOP LEVEL  "A3 - OTHELLO")
+🚀 How to Run (RUN FROM TOP LEVEL  "OTHELLO/")
 
 # Run with explicit Python path
 python3 -m othello.main
