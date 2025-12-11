@@ -39,15 +39,16 @@ Mode	Description
 ⚙️ Project Structure
 
 othello/
-├── main.py              # Game entrypoint and loop logic
-├── internal/
-│   ├── board.py         # Board representation, rules, and move logic
-│   ├── minimax.py       # Minimax + alpha-beta pruning AI
-│   ├── heuristics.py    # Evaluation heuristics (disk diff, mobility, corners, etc.)
-│   ├── cli.py           # Input/output, board rendering
-│   ├── log.py           # Debug logger to file and stdout
-│   └── utils.py         # Helper functions (coord conversions, bounds, etc.)
-└── debug.txt            # Created automatically when debug mode is active
+├── main.py              # Game entrypoint and loop logic  
+├── internal/  
+│   ├── board.py         # Board representation, rules, and move logic  
+│   ├── minimax.py       # Minimax + alpha-beta pruning AI  
+│   ├── heuristics.py    # Evaluation heuristics (disk diff, mobility, corners, etc.)  
+│   ├── cli.py           # Input/output, board rendering  
+│   ├── log.py           # Debug logger to file and stdout  
+│   └── utils.py         # Helper functions (coord conversions, bounds, etc.)  
+└── debug.txt            # Created automatically when debug mode is active  
+
 
 
 ⸻
